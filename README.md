@@ -40,10 +40,10 @@ Verification
 All  the possible eight  bit  combinations of  input   are  verified.  Screenshot  od  Simulation  is  shown  below.
 ![matlab_plot(1)](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/966159a6-d225-4344-b65a-05fe41a46a06)
 
-![sigmoid2](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/e1e3f09f-e770-45f6-9b93-e3c8f150cd59).
+
 
 To  validate  the   accuracy  of  the  model, simulation  results of   16 bit  eight  bit  precision are  compared  with  original infinite precision  sigmoid function in  Matlab. The  plot  is  shown  below.
-
+![sigmoid2](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/e1e3f09f-e770-45f6-9b93-e3c8f150cd59).
 
 
 Maximum deviation, minimum  deviation  and average  deviaion  are  found  to be 0.0215, 0 and 10^(-4).
