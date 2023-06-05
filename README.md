@@ -2,7 +2,7 @@ The sigmoid function finds essential applications in AI chips, specialized hardw
 Zhang, M., et all.: “Sigmoid generators for neural computing using piecewise approximations”, IEEE Trans. Comput., 45, (9), pp. 1045–1049, 1996.
 
 $y=1/2((x/2^2)-1)^2$ for -4>x<0
-> $y=1-1/2((x/2^2)-1)^2$ for 4>x>0
+$y=1-1/2((x/2^2)-1)^2$ for 4>x>0
 
 **Module Documentation: Sigmoid Module**
 Description: The Sigmoid Module is a combinational logic module that takes an 8-bit signed input and produces a 16-bit signed output. It performs a series of calculations to approximate the sigmoid function.
