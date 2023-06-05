@@ -25,6 +25,9 @@ Prompt used
 4. If the most significant bit x[7] is 1, it means x is negative, so y is assigned the negation of x. Otherwise, y is assigned x. The value of y is then right-shifted by 2 bits, storing the result in z. 
 5. The value z is added to 8'b1111_0000 (240 in decimal) and stored in sum. 
 6. The variable sum is squared, and the result is stored in sq. )The value of sq is right-shifted by 1, storing the result in sh. 
-7. If x is negative (i.e., x[7] == 1'b1), the value of sh is assigned to out. Otherwise, out is assigned the value of 16'b00000001_00000000 minus sh.
+7. If x is negative (i.e., x[7] == 1'b1), the value of sh is assigned to out. Otherwise, out is assigned the value of 16'b0 0000001_00000000 minus sh.
+![sigmoid2](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/e1e3f09f-e770-45f6-9b93-e3c8f150cd59)
+
+
 ![sigmoid](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/2d117a2d-2bf1-4c52-b227-5283ecbe8b97)
 
