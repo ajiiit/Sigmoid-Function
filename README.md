@@ -26,10 +26,21 @@ Prompt used
 5. The value z is added to 8'b1111_0000 (240 in decimal) and stored in sum. 
 6. The variable sum is squared, and the result is stored in sq. )The value of sq is right-shifted by 1, storing the result in sh. 
 7. If x is negative (i.e., x[7] == 1'b1), the value of sh is assigned to out. Otherwise, out is assigned the value of 16'b0 0000001_00000000 minus sh.
-![sigmoid2](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/e1e3f09f-e770-45f6-9b93-e3c8f150cd59)
 
-![matlab_plot](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/2e9f2b39-dc99-4c5f-adef-4569c175cf4c)
-
+The Schematic of  the  propsed architecure  is  shown  in  the Below figure.
 ![sigmoid](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/2d117a2d-2bf1-4c52-b227-5283ecbe8b97)
+
+Verification
+All  the possible eight  bit  combinations of  input   are  verified.  Screenshot  od  Simulation  is  shown  below.
+
+![sigmoid2](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/e1e3f09f-e770-45f6-9b93-e3c8f150cd59).
+
+To  validate  the   accuracy  of  the  model, simulation  results of   16 bit  eight  bit  precision are  compared  with  original infinite precision  sigmoid function in  Matlab. The  plot  is  shown  below.
+
+![matlab_plot](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/2e9f2b39-dc99-4c5f-adef-4569c175cf4c).
+
+Maximum deviation, minimum  deviation  and average  deviaion  are  found  to be 0.0215, 0 and 10^(-4).
+
+
 
 
