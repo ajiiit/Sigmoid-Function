@@ -1,6 +1,9 @@
 The sigmoid function finds essential applications in AI chips, specialized hardware designed to accelerate artificial intelligence computations. The sigmoid function plays a vital role in AI chips by serving as an activation function, enabling binary classification, enhancing logistic regression, accelerating neural network training, and improving hardware efficiency. By efficiently computing sigmoid functions, AI chips significantly enhance AI applications' performance, speed, and energy efficiency in various domains.
+
 **Module Documentation: Sigmoid Module**
 Description: The Sigmoid Module is a combinational logic module that takes an 8-bit signed input and produces a 16-bit signed output. It performs a series of calculations to approximate the sigmoid function.
+
+
 **Inputs:**
 x (8-bit signed): The input value to the sigmoid module.
 **Outputs:**
