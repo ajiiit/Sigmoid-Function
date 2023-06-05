@@ -28,6 +28,8 @@ Prompt used
 7. If x is negative (i.e., x[7] == 1'b1), the value of sh is assigned to out. Otherwise, out is assigned the value of 16'b0 0000001_00000000 minus sh.
 ![sigmoid2](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/e1e3f09f-e770-45f6-9b93-e3c8f150cd59)
 
+![matlab_plot](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/2e9f2b39-dc99-4c5f-adef-4569c175cf4c)
 
 ![sigmoid](https://github.com/ajiiit/Sigmoid-Function/assets/63901666/2d117a2d-2bf1-4c52-b227-5283ecbe8b97)
+
 
