@@ -1,6 +1,9 @@
 The sigmoid function finds essential applications in AI chips, specialized hardware designed to accelerate artificial intelligence computations. The sigmoid function plays a vital role in AI chips by serving as an activation function, enabling binary classification, enhancing logistic regression, accelerating neural network training, and improving hardware efficiency. By efficiently computing sigmoid functions, AI chips significantly enhance AI applications' performance, speed, and energy efficiency in various domains. This sigmoid function uses the Zhang approximation proposed by  Zhang, Vassiliadis and Delgado–Frias. They have presented a second-order approximation scheme defined in the interval (-4, 4) that requires only one multiplier.   
 Zhang, M., et all.: “Sigmoid generators for neural computing using piecewise approximations”, IEEE Trans. Comput., 45, (9), pp. 1045–1049, 1996.
 
+$y=1/2((x/2**2)-1)**2$ for -4>x<0
+> $y=1-1/2((x/2**2)-1)**2$ for 4>x>0
+
 **Module Documentation: Sigmoid Module**
 Description: The Sigmoid Module is a combinational logic module that takes an 8-bit signed input and produces a 16-bit signed output. It performs a series of calculations to approximate the sigmoid function.
 
